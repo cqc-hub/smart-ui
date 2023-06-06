@@ -3,7 +3,7 @@ import JSXButton from "./button/JsxButton";
 import SFCButton from "./button/SFCButton.vue";
 import SButton from "./button";
 
-export { JSXButton, SFCButton };
+export { JSXButton, SFCButton, SButton };
 
 export default {
   install(app: App): void {

@@ -12,6 +12,7 @@ const rollupOptions = {
     globals: {
       vue: "Vue",
     },
+    assetFileNames: 'assets/[name].[ext]'
   },
 };
 
@@ -23,6 +24,7 @@ export default defineConfig({
     }),
     Unocss(),
   ],
+
 
   build: {
     rollupOptions,
