@@ -1,9 +1,5 @@
 # Button 按钮
 
-常用操作按钮23
-
-<SButton color="blue">主要按钮</SButton>
-
 ## 基础用法
 
 基础的函数用法
