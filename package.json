@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "docs:dev": "vitepress dev docs",
+    "docs:serve": "vitepress serve docs",
     "build": "vite build",
+    "docs:build": "vitepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +19,8 @@
     "@vitejs/plugin-vue": "3.0.3",
     "@vitejs/plugin-vue-jsx": "2.0.0",
     "unocss": "0.45.6",
-    "vite": "3.0.7"
+    "vite": "3.0.7",
+    "vitepress": "0.22.4"
   },
   "dependencies": {
     "vue": "3.2.37"

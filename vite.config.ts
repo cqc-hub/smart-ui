@@ -25,7 +25,6 @@ export default defineConfig({
     Unocss(),
   ],
 
-
   build: {
     rollupOptions,
     minify: false,
