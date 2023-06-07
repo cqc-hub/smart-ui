@@ -15,6 +15,9 @@ const sidebar = {
 const config = {
   themeConfig: {
     sidebar,
+    siteTitle: 'VitePress-Fun',
+    repo: "https://github.com/cqc-hub/smart-ui",
+    editLinkPattern: ":repo/tree/:branch/:path",
   },
 
   markdown: {
