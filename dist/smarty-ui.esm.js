@@ -48,8 +48,6 @@ const SButton = defineComponent({
   setup(props2, {
     slots
   }) {
-    var _a;
-    console.log(`html`, (_a = document.querySelector(`#app`)) == null ? void 0 : _a.innerHTML);
     const size = {
       small: {
         x: "2",
