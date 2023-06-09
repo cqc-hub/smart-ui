@@ -1,6 +1,8 @@
+const gitHub = "https://github.com/cqc-hub/smart-ui";
+
 const sidebar = {
   "/": [
-    { text: "快速开始", link: "/" },
+    { text: "首页", link: "/" },
     {
       text: "通用",
       items: [{ text: "Button 按钮", link: "/components/button/index" }],
@@ -15,9 +17,10 @@ const sidebar = {
 const config = {
   themeConfig: {
     sidebar,
-    siteTitle: 'VitePress-Fun',
-    repo: "https://github.com/cqc-hub/smart-ui",
+    siteTitle: "VitePress-Fun ✨",
+    repo: gitHub,
     editLinkPattern: ":repo/tree/:branch/:path",
+    socialLinks: [{ icon: "github", link: gitHub }],
   },
 
   markdown: {
