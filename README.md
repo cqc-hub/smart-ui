@@ -3,6 +3,8 @@
 <!-- https://app.brandmark.io/v3/ -->
 #
 
+## git 提交规范
+
 - type：commit 的类型
 - feat：新功能、新特性；
 - fix: 修改 bug；
